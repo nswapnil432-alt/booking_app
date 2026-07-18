@@ -1,0 +1,133 @@
+class AppImages {
+  const AppImages._();
+  // static const String unionCancleIcon = "assets/images/check_mark.svg";
+  // static const String greenBubbleIcon = "assets/images/check_mark.svg";
+  // static const String successToastIcon = "assets/images/check_mark.svg";
+  // static const String errorToastIcon = "assets/images/check_mark.svg";
+  // static const String warningToastIcon = "assets/images/check_mark.svg";
+  static const String messageToastIcon =
+      "assets/images/snackbar_message_icon.svg";
+  static const String successToastLeadIcon =
+      "assets/images/success_toast_icon.svg";
+  static const String bellIcon = "assets/images/bell_icon.svg";
+  static const String apartment_icon = "assets/images/apartment_icon.svg";
+  static String Fill_icon = "assets/images/Fill_icon.svg";
+  static String Group_icon = "assets/images/Group_icon.svg";
+  static const String dataNotFound = 'assets/images/datanot.png';
+  static const String dataNotfound = 'assets/images/data_not_found.png';
+
+  static String vectorlogo = "assets/images/vector-logo.svg";
+  static String closeicon = "assets/images/close_icon.svg";
+  static String searchicon = "assets/images/Search_icon.svg";
+  static String vectoricon = "assets/images/Vector_icon.svg";
+
+  static String drainageIcon = "assets/images/drainage_icon.svg";
+  static String electricityIcon = "assets/images/electricity_icon.svg";
+  static String garbageIcon = "assets/images/garbage_icon.svg";
+  static String waterIcon = "assets/images/water_icon.svg";
+  static String roadIcon = "assets/images/road_icon.svg";
+  static String publictoiletsIcon = "assets/images/publictoilets_icon.svg";
+  static String healthIcon = "assets/images/health_icon.svg";
+  static String pollutionIcon = "assets/images/pollution_icon.svg";
+  static String chatbot = "assets/images/chatboticon.svg";
+
+  static const String appicon = "assets/images/ai-chat-icon.png";
+  static const String appChat = "assets/images/ai_chat.png";
+  static const String chaticon = "assets/images/chaticon.png";
+
+  static const String callIcon = "assets/images/call_icon.svg";
+  static const String raiseIssueIcon = "assets/images/raise_issue_icon.svg";
+  static const String ticketIcon = "assets/images/sound_icon.svg";
+  static const String soundIcon = "assets/images/ticket_icon.svg";
+  static const String onbordfirst = "assets/images/onbordfirst.png";
+  static const String onbordsecond = "assets/images/onbordsecond.png";
+  static const String onbordthird = "assets/images/onbordthird.png";
+  static const String onbordfour = "assets/images/onbordfour.png";
+  static String loginBgImage = "assets/images/kopargaonbgimage.png";
+  static String wastegarbage = "assets/images/wastegarbage.png";
+  static String pipelinework = "assets/images/pipelinework.png";
+  static String lottiImage = "assets/images/lotti_image.png";
+  static String describeIssue = "assets/images/describe_issue.png";
+  static String profiledefault = "assets/images/profile.png";
+  static String sucessicon = "assets/images/sucess_icon.svg";
+  static String appLogo = "assets/images/app_logos.png";
+  static String checkMark = "assets/images/check_mark.svg";
+  static String sosicon = "assets/images/sos_icon.svg";
+  static String notification = "assets/images/notification_icon.svg";
+
+  static String homeicon = "assets/images/home.svg";
+  static String complants = "assets/images/complants.svg";
+  static String project = "assets/images/project.svg";
+  static String notices = "assets/images/notices.svg";
+  static String suggestion = "assets/images/suggestion.svg";
+  static String police = "assets/images/police.svg";
+  static String ambulance = "assets/images/ambulance.svg";
+  static String fire = "assets/images/fire.svg";
+  static String phobe = "assets/images/phone.svg";
+  static String logout = "assets/images/logout.svg";
+  static String sos = " assets/images/sos.svg";
+  static String call = "assets/images/call.svg";
+  static String calendar = "assets/images/Calendar.svg";
+  static String application = "assets/images/application.svg";
+  static String notificationicon = "assets/images/Notification.svg";
+  static String report = "assets/images/report.svg";
+
+  static const String bgimage = "assets/images/allbgimage.png";
+  static const String clientchange = "assets/images/changing_client.svg";
+  static String chatboticon = "assets/images/chatboticon.svg";
+  static String schem = "assets/images/schem.png";
+  static String loadingAnimation = "assets/images/Loading Animation.json";
+  static String container = "assets/images/Container_icon.png";
+  static String networkNot = "assets/images/network_not.png";
+  static String updatelogo = "assets/images/updatelogo.png";
+  static String annuncementIcons = "assets/images/announcement.svg";
+  static String viewallIcons = "assets/images/viewAll.svg";
+  static String serviceIcon = "assets/images/serviceIcon.svg";
+  static String sucessIcon = "assets/images/success_icon.svg";
+  static String schemeIcon = "assets/images/scheme_icon.svg";
+  static String visitorIcon = "assets/images/visitor_icon.svg";
+  static String announcementIcon = "assets/images/announcement_icon.svg";
+  static String taxesIcon = "assets/images/taxes_icon.svg";
+  static String servicesIcon = "assets/images/services.svg";
+  static String certificateIcon = "assets/images/certificates_icon.svg";
+ static String incomeIcon = "assets/images/income_icon.svg";
+  static String timeIcon = "assets/images/time_icon.svg";
+  static String documentIcon = "assets/images/document.svg";
+  static String applicationInfoIcon = "assets/images/applicationinfo.svg";
+  static String pdfIcon = "assets/images/pdf.svg";
+  static String kopargaonImage  = "assets/images/Aapale_kopargaon.png";
+  static String grievancesIcon = "assets/images/grievances-icon.png";
+  static String propertyTaxIcon = "assets/images/property_tax.png";
+  static String waterTaxIcon = "assets/images/water_tax_icon.png";
+  static String citizenIcon = "assets/images/citizen_icon.png";
+  static String healthIconPng = "assets/images/healt_icon.png";
+  static String nirmalGodavariIcon = "assets/images/nirmal_godavari_icon.png";
+  static String ourWorkIcon = "assets/images/our_work_icon.png";
+  static String tendersIcon = "assets/images/Tenders_icon.png";
+  static String wasteIcon = "assets/images/waste_icon.png";
+
+  static const String narendra_modi = "assets/images/narendra_modi.png";
+  static const String devendra_fadnavis = "assets/images/devendra_fadnavis.png";
+  static const String vivek_kolhe = "assets/images/vivek_kolhe.png";
+  static const String parag_sandhan = "assets/images/parag_sandhan.png";
+  static const String jitendra_ranshur = "assets/images/jitendra_ranshur.png";
+  static const String waghchaure = "assets/images/waghchaure.png";
+  static const String manojPapadiwal = "assets/images/manoj_papadiwal.jpg";
+  static const String suhasJagtap = "assets/images/suhas_jagtap.jpg";
+
+  static const String cirizenservices = "assets/images/cirizenservices.png";
+  static const String event = "assets/images/event.png";
+  static const String grievances = "assets/images/grievances.png";
+  static const String propertytax = "assets/images/propertytax.png";
+  static const String viewall = "assets/images/viewall.png";
+  static const String watertax = "assets/images/watertax.png";
+  static const String shareArrow = "assets/images/share-arrow.svg";
+  static const String kopargaonNagarparishadImage = "assets/images/kopargaon_image.png";
+  static const String birthCertificate = "assets/images/birth.png";
+  static const String deathCertificate = "assets/images/deth.png";
+  static const String marriageCertificate = "assets/images/marrage.png";
+  static const String ambulanceRates = "assets/images/ambulance_rates.png";
+  static const String healthDepartmentInfo = "assets/images/health_department_info.png";
+  static const String phoneIconCustom = "assets/images/phone_icon_custom.png";
+  static const String village = "assets/images/village.png";
+}
