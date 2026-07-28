@@ -12,6 +12,8 @@ import '../../features/onboarding/onboarding_screen.dart';
 import '../../features/splash/view/splash_screen.dart';
 import '../../features/login/view/login_screen.dart';
 import '../../features/signup/view/signup_screen.dart';
+import '../../features/services/model/services_model.dart';
+import '../../features/service_details/view/service_details_screen.dart';
 import '../constants/local_storage_key_strings.dart';
 import 'app_routes.dart';
 
@@ -44,6 +46,13 @@ class AppRouter {
        GoRoute(
         path: AppRoutes.signUp,
         pageBuilder: (context, state) => hcCustomTransitionPage(const SignupScreen()),
+      ),
+       GoRoute(
+        path: AppRoutes.serviceDetails,
+        pageBuilder: (context, state) {
+          final category = state.extra as ServiceCategory;
+          return hcCustomTransitionPage(ServiceDetailsScreen(category: category));
+        },
       ),
 
      
