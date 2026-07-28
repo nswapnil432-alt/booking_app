@@ -118,7 +118,7 @@ class _SplashScreenState extends State<SplashScreen>
   }
 
   void _navigateToNextScreen() {
-    context.go(AppRoutes.home);
+    context.go(AppRoutes.login);
   }
 
   @override

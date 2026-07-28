@@ -3,4 +3,6 @@ class AppRoutes {
   static const String defaultLocation = "/";
   static const String home="/home";
   static const String onbordingScreen="/onbordingScreen";
+  static const String login="/login";
+  static const String signUp="/signup";
 }
