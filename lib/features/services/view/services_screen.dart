@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:go_router/go_router.dart';
 import '../../login/view/login_screen.dart'; // To reuse DiyaWidget for Host category
 import '../controller/services_controller.dart';
 import '../model/services_model.dart';
+import '../../../utils/navigation/app_routes.dart';
 
 class ServicesScreen extends StatelessWidget {
   const ServicesScreen({super.key});
@@ -70,7 +72,7 @@ class ServicesScreen extends StatelessWidget {
                     ),
                     itemBuilder: (context, index) {
                       final category = controller.categories[index];
-                      return _buildCategoryCard(category);
+                      return _buildCategoryCard(context, category);
                     },
                   );
                 }),
@@ -82,21 +84,25 @@ class ServicesScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildCategoryCard(ServiceCategory category) {
-    return Container(
-      clipBehavior: Clip.antiAlias, // Clips the decorative circle overflow
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(28.0),
-        border: Border.all(color: const Color(0xFFEFE6DB), width: 1.0),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.02),
-            blurRadius: 10,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
+  Widget _buildCategoryCard(BuildContext context, ServiceCategory category) {
+    return GestureDetector(
+      onTap: () {
+        context.push(AppRoutes.serviceDetails, extra: category);
+      },
+      child: Container(
+        clipBehavior: Clip.antiAlias, // Clips the decorative circle overflow
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(28.0),
+          border: Border.all(color: const Color(0xFFEFE6DB), width: 1.0),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.02),
+              blurRadius: 10,
+              offset: const Offset(0, 4),
+            ),
+          ],
+        ),
       child: Stack(
         children: [
           // Decorative cream circle in the top right corner of the card
@@ -169,6 +175,7 @@ class ServicesScreen extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
+    ),
+  );
+}
 }
