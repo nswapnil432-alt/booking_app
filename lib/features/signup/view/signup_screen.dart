@@ -258,7 +258,7 @@ class SignupScreen extends StatelessWidget {
                                     backgroundColor: Colors.green,
                                     colorText: Colors.white,
                                   );
-                                  context.go(AppRoutes.login);
+                                  context.go(AppRoutes.home);
                                 });
                               },
                         child: Container(
